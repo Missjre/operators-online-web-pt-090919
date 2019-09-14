@@ -10,6 +10,7 @@ def not_safe?(speed)
       unsafe==true
     end
 
+def not_safe(speed)
     puts unsafe("'returns false if the speed is between 40 and 60'")
       if = unsafe?(50)
       unsafe==false
