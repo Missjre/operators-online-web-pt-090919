@@ -5,8 +5,15 @@
     end
 
 def not_safe?(speed)
-	
-end
-	
+	puts unsafe("'returns true if speed is less than 40'")
+      if = unsafe?(35)
+      unsafe==true
+    end
+
+    it 'returns false if the speed is between 40 and 60' do
+      answer = unsafe?(50)
+      expect(answer).to eq(false)
+    end
+  end
 
 
